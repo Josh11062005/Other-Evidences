@@ -1,3 +1,4 @@
+```python
 class SocialMediaAccount():
     def __init__(self, username, password):
         self.username = username
@@ -27,3 +28,4 @@ class FaceBookAccount(SocialMediaAccount):
 
 acc1 = InstagramAccount("akotohsijuswa", "AngelaMainSaCorelangPapatong06", 500)
 acc2 = FaceBookAccount("Josua Bersamina", "HapiNaBertdeyMoPa2005", 3215)
+```python
