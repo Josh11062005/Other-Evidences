@@ -15,7 +15,7 @@ mm = Mlbb_hero("Layla", "Marksman", "Physical")
 mage = Mlbb_hero("Kagura", "Mage", "Magic")
 jungler = Mlbb_hero("Gusion", "Jungler", "Magic")
 tank = Mlbb_hero("Lolita", "Tank", "Physical")
-support = Mlbb_hero("Diggie", "Support", "Magic")
+support = Mlbb_hero("Diggies", "Support", "Magic")
 
 print(f'''
 MY TEAM:
