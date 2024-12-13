@@ -1,3 +1,4 @@
+```python
 class Phone:
     def __init__(self, brand, model, price):
         self.brand = brand
@@ -89,3 +90,4 @@ def main_menu():
             print("Invalid choice. Please choose a number from 1 to 5.")
 
 main_menu()
+```python
