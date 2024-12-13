@@ -13,29 +13,29 @@ class Character:
         pass
     
     def defend (self, attacker):
-        dmg_taken = attacker.power * 0.9
+        dmg_taken = attacker.power * 0.10
         self.health -= dmg_taken
         print(f"{self.name} defends against {attacker.name}'s attack. {self.name}'s health is now {self.health}.")
         
 class Warrior(Character):
     def special_move(self, target):
         self.power *= 2
-        print(f"{self.name} uses Shield Bash!")
+        print(f"{self.name} uses Sword dash!")
         
 class Mage(Character):
     def special_move(self, target):
         target.health -= 100
-        print(f"{self.name} casts Fireball! {target.name}'s health is reduced by 100.")
+        print(f"{self.name} casts Poison Cloud! {target.name}'s health is reduced by 150 hp.")
         
 class Archer(Character):
     def special_move(self, target):
         target.health -= self.power * 1.5
-        print(f"{self.name} shoots a Piercing Arrow! {target.name}'s health is reduced by 1.5 times than the normal damage.")
+        print(f"{self.name} shoots a Electric Arrow! {target.name}'s health is reduced by 1.5 times than the normal damage.")
         
 class Monster(Character):
     def special_move(self, target):
         target.health += 50
-        print(f"{self.name} roars and gains 50 health.")
+        print(f"{self.name} drinks blood and gains 50 health.")
         
 warrior = Warrior("Warrior", 100, 20)
 mage = Mage("Mage", 80, 15)
