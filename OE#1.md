@@ -1,3 +1,4 @@
+```python
 class Mlbb_hero():
     def __init__(self, name, role, dmg_type):
         self.name = name
@@ -43,3 +44,4 @@ MY TEAM:
 {support.dmg_type}
 {support.describe()}
 """)
+```python
